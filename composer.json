@@ -1,9 +1,15 @@
 {
     "name": "akamai-open/netstorage",
     "description": "Akamai NetStorage",
+     "repositories":  [
+            {
+                    "type": "vcs",
+                    "url": "https://github.com/ynohat/AkamaiOPEN-edgegrid-php-client"
+            }
+    ],
     "require": {
         "php": ">=5.5",
-        "akamai-open/edgegrid-client": "^1.0.0",
+        "akamai-open/edgegrid-client": "dev-master",
         "league/flysystem": "^1.0",
         "twistor/flysystem-stream-wrapper": "^1.0",
         "ext-simplexml": "*",
